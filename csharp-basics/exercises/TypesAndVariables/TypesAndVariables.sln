@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CauculateUserInput", "Caucu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CauculateUpperCases", "CauculateUpperCases\CauculateUpperCases.csproj", "{CDBF3A6D-6EF4-4AFB-9F49-C6D328EA1A25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CauculateDistance", "CauculateDistance\CauculateDistance.csproj", "{A326CCD9-FF8A-4FDA-BE7C-81ADF760F160}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{CDBF3A6D-6EF4-4AFB-9F49-C6D328EA1A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDBF3A6D-6EF4-4AFB-9F49-C6D328EA1A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDBF3A6D-6EF4-4AFB-9F49-C6D328EA1A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A326CCD9-FF8A-4FDA-BE7C-81ADF760F160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A326CCD9-FF8A-4FDA-BE7C-81ADF760F160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A326CCD9-FF8A-4FDA-BE7C-81ADF760F160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A326CCD9-FF8A-4FDA-BE7C-81ADF760F160}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
