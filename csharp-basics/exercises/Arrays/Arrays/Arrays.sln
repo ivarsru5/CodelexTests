@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TicTacToe\TicT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumberFinder", "RandomNumberFinder\RandomNumberFinder.csproj", "{D3611DBB-8F3B-478E-AB3E-776ED3CEAEAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoWords", "TwoWords\TwoWords.csproj", "{04216EF7-80C6-4613-B42E-5EC7F352DB51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D3611DBB-8F3B-478E-AB3E-776ED3CEAEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3611DBB-8F3B-478E-AB3E-776ED3CEAEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3611DBB-8F3B-478E-AB3E-776ED3CEAEAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04216EF7-80C6-4613-B42E-5EC7F352DB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04216EF7-80C6-4613-B42E-5EC7F352DB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04216EF7-80C6-4613-B42E-5EC7F352DB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04216EF7-80C6-4613-B42E-5EC7F352DB51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
