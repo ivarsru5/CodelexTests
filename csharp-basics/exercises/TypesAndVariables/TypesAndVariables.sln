@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariablesAndNames", "Variab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameAndAge", "NameAndAge\NameAndAge.csproj", "{2D6F8FA7-28F5-4FDD-91F3-6BB425CB7B3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonTables", "LessonTables\LessonTables.csproj", "{FF07961C-30D9-44FF-B0A8-CE62EA110791}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2D6F8FA7-28F5-4FDD-91F3-6BB425CB7B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D6F8FA7-28F5-4FDD-91F3-6BB425CB7B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D6F8FA7-28F5-4FDD-91F3-6BB425CB7B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF07961C-30D9-44FF-B0A8-CE62EA110791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF07961C-30D9-44FF-B0A8-CE62EA110791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF07961C-30D9-44FF-B0A8-CE62EA110791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF07961C-30D9-44FF-B0A8-CE62EA110791}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
