@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CauculateUpperCases", "Cauc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CauculateDistance", "CauculateDistance\CauculateDistance.csproj", "{A326CCD9-FF8A-4FDA-BE7C-81ADF760F160}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertMinutes", "ConvertMinutes\ConvertMinutes.csproj", "{37F928E3-D2CB-4F43-A48E-666C08F3C022}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{A326CCD9-FF8A-4FDA-BE7C-81ADF760F160}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A326CCD9-FF8A-4FDA-BE7C-81ADF760F160}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A326CCD9-FF8A-4FDA-BE7C-81ADF760F160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F928E3-D2CB-4F43-A48E-666C08F3C022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F928E3-D2CB-4F43-A48E-666C08F3C022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F928E3-D2CB-4F43-A48E-666C08F3C022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F928E3-D2CB-4F43-A48E-666C08F3C022}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
