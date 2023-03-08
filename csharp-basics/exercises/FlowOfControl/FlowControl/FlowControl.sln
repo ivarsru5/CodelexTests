@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetTheCentury", "GetTheCent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintDayInWord", "PrintDayInWord\PrintDayInWord.csproj", "{5D0CAE6F-1884-4E7E-8031-EE4F06BDFC41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeypadLetterMaping", "KeypadLetterMaping\KeypadLetterMaping.csproj", "{FFE624B1-64CF-4C42-81AD-BFAC01061BC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5D0CAE6F-1884-4E7E-8031-EE4F06BDFC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D0CAE6F-1884-4E7E-8031-EE4F06BDFC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D0CAE6F-1884-4E7E-8031-EE4F06BDFC41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE624B1-64CF-4C42-81AD-BFAC01061BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE624B1-64CF-4C42-81AD-BFAC01061BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE624B1-64CF-4C42-81AD-BFAC01061BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE624B1-64CF-4C42-81AD-BFAC01061BC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
