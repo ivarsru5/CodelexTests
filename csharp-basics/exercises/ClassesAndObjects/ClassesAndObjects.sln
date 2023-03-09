@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products", "Products\Produc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies", "Movies\Movies.csproj", "{B4F784D7-7F1E-4158-B0C2-EFF8E5E4B27D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuelGauge", "FuelGauge\FuelGauge.csproj", "{CF82B7E8-15D3-489B-8CA2-DDCAFB87C5D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B4F784D7-7F1E-4158-B0C2-EFF8E5E4B27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4F784D7-7F1E-4158-B0C2-EFF8E5E4B27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4F784D7-7F1E-4158-B0C2-EFF8E5E4B27D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF82B7E8-15D3-489B-8CA2-DDCAFB87C5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF82B7E8-15D3-489B-8CA2-DDCAFB87C5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF82B7E8-15D3-489B-8CA2-DDCAFB87C5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF82B7E8-15D3-489B-8CA2-DDCAFB87C5D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
