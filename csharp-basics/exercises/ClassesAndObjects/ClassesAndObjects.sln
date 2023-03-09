@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuelGauge", "FuelGauge\Fuel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dog", "Dog\Dog.csproj", "{6A2EEE04-10FF-4A2F-9AA1-887704956252}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SavingsAccount", "SavingsAccount\SavingsAccount.csproj", "{D4C53F6C-282F-4CB4-92FE-B508C882F224}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{6A2EEE04-10FF-4A2F-9AA1-887704956252}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A2EEE04-10FF-4A2F-9AA1-887704956252}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A2EEE04-10FF-4A2F-9AA1-887704956252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4C53F6C-282F-4CB4-92FE-B508C882F224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C53F6C-282F-4CB4-92FE-B508C882F224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C53F6C-282F-4CB4-92FE-B508C882F224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C53F6C-282F-4CB4-92FE-B508C882F224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
