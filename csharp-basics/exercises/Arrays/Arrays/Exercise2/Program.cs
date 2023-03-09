@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Exercise2
 {
@@ -15,12 +16,12 @@ namespace Exercise2
             Console.WriteLine("Please enter a max number");
             int maxNumber = int.Parse(Console.ReadLine());
 
-            /*
-            fixme
-            for (........) {
-            ........
+            var numarray = Enumerable.Range(minNumber, maxNumber).ToArray();
+
+            for (var index = minNumber; index < maxNumber; index++)
+            {
+                sum += index;
             }
-            */
 
             Console.WriteLine("The sum is " + sum);
             Console.ReadKey();

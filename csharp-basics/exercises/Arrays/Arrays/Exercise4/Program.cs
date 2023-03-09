@@ -11,6 +11,8 @@ namespace Exercise4
         //TODO: Write a C# program to test if an array contains a specific value.
         private static void Main(string[] args)
         {
+            Console.Write("Whitch value you want to see of contains: ");
+            var value = int.Parse(Console.ReadLine()!);
             int[] myArray =
             {
                 1789, 2035, 1899, 1456, 2013,
@@ -18,13 +20,14 @@ namespace Exercise4
                 1456, 2265, 1457, 2456
             };
 
-            /*
-            fixme - check if contains number 1245 
-            for (?) {
-                ......
-                Console.WriteLine("Contains!");
+            if (myArray.Contains(value))
+            {
+                Console.WriteLine("Conatins");
             }
-            */
+            else
+            {
+                Console.WriteLine("Does not contain");
+            }
         }
     }
 }
