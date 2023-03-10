@@ -11,7 +11,7 @@ namespace WordCount
     {
         static void Main(string[] args)
         {
-            string filePath = "/Users/ivars_rug/Desktop/CodelexTests/csharp-basics/exercises/Collections/WordCount/lear.txt";
+            string filePath = "lear.txt";
 
             if (!File.Exists(filePath))
             {
