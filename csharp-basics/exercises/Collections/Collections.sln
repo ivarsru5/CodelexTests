@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceSubstring", "Replace
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueValues", "UniqueValues\UniqueValues.csproj", "{0C3C99BF-7B23-4573-B285-2FAE43DA51FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqNames", "UniqNames\UniqNames.csproj", "{FD1E9CC6-B4B1-4C9E-9EDB-EF1D0D9018D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{0C3C99BF-7B23-4573-B285-2FAE43DA51FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C3C99BF-7B23-4573-B285-2FAE43DA51FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C3C99BF-7B23-4573-B285-2FAE43DA51FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1E9CC6-B4B1-4C9E-9EDB-EF1D0D9018D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1E9CC6-B4B1-4C9E-9EDB-EF1D0D9018D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1E9CC6-B4B1-4C9E-9EDB-EF1D0D9018D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1E9CC6-B4B1-4C9E-9EDB-EF1D0D9018D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
