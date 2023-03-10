@@ -4,37 +4,43 @@ namespace VideoStore
 {
     class Video
     {
-        public Video(string title)
+        private string _videoTitle;
+        public bool Chekced { get; set; }
+        public double Rating { get; set; }
+
+        public Video(string title, bool check, double rating)
         {
-            
+            this._videoTitle = title;
+            this.Chekced = check;
+            this.Rating = rating;
         }
 
         public void BeingCheckedOut()
         {
-            
+            this.Chekced = true;
         }
 
         public void BeingReturned()
         {
-            
+            this.Chekced = false;
         }
 
         public void ReceivingRating(double rating)
         {
-            
+            this.Rating = rating;
         }
 
         public double AverageRating()
         {
-            return 0;
+            return Rating;
         }
 
         public bool Available()
         {
-            return true;
+            return Chekced;
         }
 
-        public string Title => "";
+        public string Title => this._videoTitle;
 
         public override string ToString()
         {
