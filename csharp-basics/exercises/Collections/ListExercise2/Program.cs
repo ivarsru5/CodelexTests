@@ -19,13 +19,8 @@ namespace ListExercise2
             colors.Add("White");
             colors.Add("Black");
 
-            /*
-            fixme
-            for (...) 
-            {
-              Console.WriteLine(element);
-            }
-            */
+            foreach (var color in colors)
+                Console.WriteLine(color);
         }
     }
 }
