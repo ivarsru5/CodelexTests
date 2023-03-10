@@ -60,8 +60,10 @@ namespace VideoStore
                 Console.WriteLine("Enter rating");
                 int rating = Convert.ToInt16(Console.ReadLine());
 
-                _videoStore.AddVideo(movieName);
-                _videoStore.TakeUsersRating(rating, movieName);
+                var newVideo = new Video(movieName, false, rating);
+
+                _videoStore.AddVideo(newVideo);
+                _videoStore.TakeUsersRating(rating, newVideo);
             }
         }
 
