@@ -13,7 +13,15 @@ namespace ListExercise1
             //TODO: Write a C# program to create a new list, add some elements (string) and print out the collection.
             //TODO: Add 5 colors to list
 
-            Console.WriteLine();
+            var listColors = new List<string>
+            {
+                "Black",
+                "White",
+                "Blue",
+                "Red",
+                "Purple"
+            };
+            Console.WriteLine(string.Join(' ', listColors));
         }
     }
 }

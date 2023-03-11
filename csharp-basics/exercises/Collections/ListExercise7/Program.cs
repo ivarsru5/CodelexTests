@@ -20,6 +20,7 @@ namespace ListExercise7
             };
 
             //      TODO: Check if list contains "White" element
+            colors.Contains("White");
         }
     }
 }

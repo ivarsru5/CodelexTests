@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 
 namespace UniqueValues
@@ -11,7 +12,8 @@ namespace UniqueValues
             //ToDo: Example: ["abc", "xyz", "klm", "xyz", "abc", "abc", "rst"] → ["klm", "rst"]
 
             var values = new List<string> { "Hi", "Meow", "Hello", "Meow", "Hi!", "Meow", "Hi", "Bye" };
-
+            values = values.Distinct().ToList();
+            Console.Write(string.Join(' ', values));
         }
     }
 }

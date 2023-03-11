@@ -33,6 +33,7 @@ namespace ListExercise9
             Console.WriteLine(string.Join(",", secondList));
             //TODO: Write a C# program to join two lists.
             //...
+            firstList.AddRange(secondList);
         }
     }
 }
