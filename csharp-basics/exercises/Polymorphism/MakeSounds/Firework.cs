@@ -4,9 +4,16 @@ namespace MakeSounds
 {
     public class Firework: ISound
     {
-        public void PlaySound()
+        private string _fireworksType;
+
+        public Firework(string fireworks)
         {
-            Console.WriteLine("whoosh-bang");
+            _fireworksType = fireworks;
+        }
+
+        public string GetFireworkType()
+        {
+            return _fireworksType;
         }
     }
 }
