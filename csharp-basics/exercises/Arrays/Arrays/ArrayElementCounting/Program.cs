@@ -24,6 +24,7 @@ class Program
                 positive += 1;
             }
         }
+
         completed.Add(positive);
         completed.Add(negative);
         return completed;

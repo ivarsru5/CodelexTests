@@ -14,7 +14,7 @@ class Program
         {
             if (words[index] == "Nemo")
             {
-                result = "I found Nemo at " + index;
+                result = "I found Nemo at " + index + 1;
                 break;
             }
             else
