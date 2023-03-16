@@ -17,10 +17,12 @@ class Program
         if (input == randomNumber)
         {
             return "You are correct, I guessed" + randomNumber;
-        }else if (input > randomNumber)
+        }
+        else if (input > randomNumber)
         {
             return "You guessed to high, I was thinking of: " + randomNumber;
-        }else
+        }
+        else
         {
             return "You guessed to low, I was thinking of: " + randomNumber;
         }

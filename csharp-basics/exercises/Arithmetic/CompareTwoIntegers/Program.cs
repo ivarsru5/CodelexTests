@@ -8,18 +8,19 @@ class Program
         Console.Write("Please enter second number: ");
         var second = int.Parse(Console.ReadLine()!);
 
-        var result = Compare(first, second);
+        var result = CompareIntegers(first, second);
         Console.WriteLine("Input numbers generate result -> {0}", result);
     }
 
-    static bool Compare(int first, int second)
+    static bool CompareIntegers(int first, int second)
     {
         var add = first + second;
         var difference = first - second;
-        if (first == 15 || second == 15)
+        if (first == 15 || second == 15 || add == 15 || difference == 15)
         {
             return true;
-        } else if(add == 15 || difference == 15)
+        }
+        else if(add == 15 || difference == 15)
         {
             return true;
         }
