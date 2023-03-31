@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Exeptions\" />
+    <None Remove="Interfaces\" />
+    <None Remove="Model\" />
+    <None Remove="Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Exeptions\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Model\" />
+    <Folder Include="Classes\" />
+  </ItemGroup>
+</Project>
