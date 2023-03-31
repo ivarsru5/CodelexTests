@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Reflection;
+using VendingMachine.Exceptions;
 
 namespace VendingMachine
 {
@@ -94,7 +95,7 @@ namespace VendingMachine
                     Price = price,
                     Name = name
                 };
-                var index = _products.Length;
+                var index = _products.Length - 1;
                 _products[index] = product;
 
                 return true;
@@ -107,7 +108,7 @@ namespace VendingMachine
 
         public bool UpdateProduct(int productNumber, string name, Money? price, int amount)
         {
-            if (productNumber >= 0 && productNumber < _products.Length && price.HasValue)
+            if (productNumber >= 0 && productNumber < _products.Length && price.HasValue && !string.IsNullOrEmpty(name))
             {
                 var product = _products[productNumber - 1];
                 product.Name = name;

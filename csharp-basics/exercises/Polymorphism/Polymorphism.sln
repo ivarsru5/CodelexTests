@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scooters.Tests", "Scooters.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scooters", "Scooters\Scooters.csproj", "{006E3088-62AE-420D-ABDF-7FB619BC829B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendingMachineTests", "VendingMachineTests\VendingMachineTests.csproj", "{D6DD3B19-0902-4169-BC2A-29DC1DA383F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{006E3088-62AE-420D-ABDF-7FB619BC829B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{006E3088-62AE-420D-ABDF-7FB619BC829B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{006E3088-62AE-420D-ABDF-7FB619BC829B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6DD3B19-0902-4169-BC2A-29DC1DA383F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DD3B19-0902-4169-BC2A-29DC1DA383F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6DD3B19-0902-4169-BC2A-29DC1DA383F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6DD3B19-0902-4169-BC2A-29DC1DA383F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
